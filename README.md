@@ -1,1 +1,1 @@
-# js-trial
+# goit-js-hw-07
