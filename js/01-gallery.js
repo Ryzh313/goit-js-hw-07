@@ -25,7 +25,7 @@ function createGalleryMarkup(items) {
             </a>
         </div>`
     }).join('');
-}
+};
 
 
 // add onClick function
