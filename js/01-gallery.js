@@ -51,26 +51,7 @@ function onClickImg(evant) {
     });    
 };
 
-// ${evant.target.dataset.source}
-
-// Cannot access 'instance' before initialization at HTMLDivElement.onClickImg
-// ${evant.target.dataset.source}
-// https://cdn.pixabay.com/photo/2019/05/14/16/43/himilayan-blue-poppy-4202825_1280.jpg
-
-
-
-// divRef.addEventListener("click", (evant) => {
-//     if (evant.target.nodeName === 'IMG') {
-//        instance.show();
-//     }    
-// });
-
-
-
-
-
-
-// Version 2
+// MarkupVersion 2
 
 
 // const galleryContainer = document.querySelector('.gallery');
@@ -103,35 +84,7 @@ function onClickImg(evant) {
 
 // galleryContainer.append(...elements);
 
-// // add onClick function
 
-// galleryContainer.addEventListener('click', onClickImg);
-
-// function onClickImg(evant) {
-//     evant.preventDefault();
-//     if (evant.target.nodeName !== 'IMG') {
-//         return;
-//     }
-//     console.log(evant.target.nodeName);    
-// };
-
-// const instance = basicLightbox.create(`
-//     <img src="${evant.target.dataset.source}">
-// `);
-
-// // ${evant.target.dataset.source.value} problem
-
-// galleryContainer.addEventListener("click", (evant) => {
-//     if (evant.target.nodeName === 'IMG') {
-//        instance.show();
-//     }    
-// });
-
-// galleryContainer.addEventListener("keydown", (evant) => {
-//     if (evant.code === 'Escape') {
-//         instance.close();
-//     }    
-// });
 
 
 
