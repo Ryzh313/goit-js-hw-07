@@ -44,12 +44,18 @@ function onClickImg(evant) {
     instance.show();
 
     // close Item
-    divRef.addEventListener("keydown", (evant) => {
+
+    if (instance.visible()) {
+        divRef.addEventListener("keydown", closeImage);        
+    };
+  
+    function closeImage(evant) {        
         if (evant.code === 'Escape') {
-            instance.close()
+            instance.close();
+            divRef.removeEventListener("keydown", closeImage);
         }
-    });    
-};
+    };
+};  
 
 // MarkupVersion 2
 
