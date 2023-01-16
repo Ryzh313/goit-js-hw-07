@@ -19,19 +19,11 @@ function createGalleryMarkup(items) {
     }).join('');
 };
 
-function onClickImg(evant) {
-    evant.preventDefault();
-    if (evant.target.nodeName !== 'IMG') {
-        return;
-    } 
-    console.log(evant.target.nodeName);    
-};
-
 const lightbox = new SimpleLightbox('.gallery a', {
     captions: true,
     captionsData: 'alt',
     captionDelay: 250,
-    captionPosition: 'bottom',
-    captionType: 'text',
+    captionPosition: 'bottom',    
 });
+
 
